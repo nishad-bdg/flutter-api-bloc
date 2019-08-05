@@ -8,7 +8,7 @@ class Message extends StatelessWidget {
   Widget build(BuildContext context) {
     return Expanded(
       child: Center(
-        child: Center(child: Text(message, style: messageTextStyle,)),
+        child: Text(message, style: messageTextStyle, textAlign: TextAlign.center),
       ),
     );
   }

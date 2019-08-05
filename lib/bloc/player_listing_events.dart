@@ -8,3 +8,9 @@ class CountrySelectedEvent extends PlayerListingEvent{
   CountrySelectedEvent({@required this.nationModel}):assert(nationModel !=null);
     
 }
+
+class SearchTextChangedEvent extends PlayerListingEvent{
+  final String searchTerm;
+  SearchTextChangedEvent({this.searchTerm}):assert(searchTerm != null);
+
+}

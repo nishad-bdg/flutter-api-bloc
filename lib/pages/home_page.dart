@@ -5,6 +5,7 @@ import 'package:my_project/pages/player_listing.dart';
 import 'package:my_project/services/repository.dart';
 import 'package:my_project/themes/themes.dart';
 import 'package:my_project/widgets/horizontal_bar.dart';
+import 'package:my_project/widgets/search_bar.dart';
 
 
 
@@ -51,6 +52,7 @@ class HomePageState extends State<HomePage> {
           children: <Widget>[
             HorizontalBar(),
             SizedBox(height: 10.0),
+            SearchBar(),
             SizedBox(height: 10.0),
             PlayerListing()
           ],

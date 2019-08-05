@@ -46,7 +46,7 @@ class PlayerListing extends StatelessWidget {
           return ListTile(
             leading: Image.network(player.headshot.imgUrl, height: 70.0, width: 70.0,),
             title: Text(player.name, style: titleTextStyle),
-            subtitle: Text(player.club.name, style: subTitleTextStyle) ,
+            subtitle: Text(player.club.name, style: subTitleTextStyle),
           );
         },
         separatorBuilder: (BuildContext context, index){
